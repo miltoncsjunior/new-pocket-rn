@@ -29,7 +29,7 @@ function Icon({ icon: Icon }: IconProps) {
 }
 
 function Title({ children }: TextProps) {
-	return <Text>{children}</Text>;
+	return <Text style={style.title}>{children}</Text>;
 }
 
 Button.Icon = Icon;
